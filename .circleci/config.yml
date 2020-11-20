@@ -1,0 +1,11 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: quay.io/cybozu/ubuntu-dev:20.04
+    steps:
+      - checkout:
+      - run: echo "Hello, world!"
+      - add_ssh_keys:
+          fingerprints:
+            - "43:45:a5:4c:25:93:0f:df:51:f4:d8:d8:f5:f3:21:94"
