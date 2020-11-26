@@ -8,4 +8,5 @@ jobs:
       - run: echo "Hello, world!"
       - add_ssh_keys:
           fingerprints:
-            - "43:45:a5:4c:25:93:0f:df:51:f4:d8:d8:f5:f3:21:94"
+            - "da:8a:9f:ed:28:f4:ca:c2:e0:cb:65:d2:30:2e:f2:16"
+      - run: sh ./deploy.sh
