@@ -1,5 +1,5 @@
 #!/bin/sh -ex
-target_branch="ghp-target"
+target_branch="ghp-deploy"
 git config --global user.name "CircleCI deploy"
 git config --global user.email "<>"
 git checkout $target_branch
