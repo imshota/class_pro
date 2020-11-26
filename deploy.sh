@@ -14,5 +14,5 @@ if [ $? -ne 0 ]; then
   echo "nothing to commit"
   exit 0
 fi
-git remote set-url origin "class@github.com:imshota/class_pro.git"
+git remote set-url origin "https://github.com/imshota/class_pro.git"
 git push -f origin $target_branch
