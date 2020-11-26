@@ -1,0 +1,1 @@
+output of deploy_test.out: fib(10) = 5
